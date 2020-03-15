@@ -61,6 +61,10 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
 
           <?php if (Session::get('id') == TRUE) { ?>
             <?php if (Session::get('roleid') == '1') { ?>
+              <li class="nav-item">
+
+                  <a class="nav-link" href="index.php"><i class="fas fa-users mr-2"></i>User lists </span></a>
+              </li>
               <li class="nav-item
 
               <?php
@@ -72,6 +76,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
                           }
 
                          ?>">
+
                 <a class="nav-link" href="addUser.php"><i class="fas fa-user-plus mr-2"></i>Add user </span></a>
               </li>
             <?php  } ?>
