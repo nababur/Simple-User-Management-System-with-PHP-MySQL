@@ -1,7 +1,7 @@
 <?php
 
-//include 'lib/Database.php';
-//include_once 'lib/Session.php';
+include 'lib/Database.php';
+include_once 'lib/Session.php';
 
 
 class Users
